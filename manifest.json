@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "author": "Eddie Dover",
+    "homepage_url": "https://www.github.com/EddieDover/copy-scrubbed-url",
+    "name": "Scrub & Copy URL",
+    "description": "Removes tracking, redirect, and product referral information from a URL and copies it to the clipboard",
+    "version": "1.0",
+    "permissions": ["clipboardWrite", "contextMenus", "activeTab", "scripting"],
+    "background": {
+        "service_worker": "js/background.js"
+    }
+  }
